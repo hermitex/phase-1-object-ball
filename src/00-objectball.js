@@ -115,4 +115,63 @@ const gameObject = () => {
   };
 };
 
-console.table(gameObject());
+//returns the points scored by the player
+//whose name has been provided
+const numPointsScored = (playerName) => {
+  return 0;
+};
+
+//returns the shoe size of the player
+//whose name has been provided
+const shoeSize = (playerName) => {
+  return 0;
+};
+
+//returns the colors of the team
+//whose name has been provided
+const teamColors = (teamName) => {
+  return "red and white";
+};
+
+//returns an array of teams
+const teamNames = (gameObject) => {
+  return [];
+};
+
+//returns an array of jersey numbers
+const playerNumbers = (teamName) => {
+  return [];
+};
+
+//returns the player statistics object of the player
+//whose name has been provided
+const playerStats = (playerName) => {
+  return {};
+};
+
+//returns the number of rebounds associated with
+//the player that has the largest shoe size
+const bigShoeRebounds = () => {
+  return "John Smith";
+};
+
+//returns the player with most points
+const mostPointsScored = () => {
+  return "John Smith";
+};
+
+//returns the team with most points
+const winningTeam = () => {
+  return "Charlotte Hornets";
+};
+
+//returns the player has the longest name
+const playerWithLongestName = () => {
+  return "John Smith";
+};
+
+//returns true if the player with the
+//longest name had the most steals
+const doesLongNameStealATon = () => {
+  return false;
+};
