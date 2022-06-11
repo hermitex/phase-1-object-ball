@@ -118,8 +118,16 @@ const gameObject = () => {
 //returns the points scored by the player
 //whose name has been provided
 const numPointsScored = (playerName) => {
-  return 0;
+  const baseGameObject = gameObject();
+  let homePlayers = baseGameObject.home.players;
+  let awayPlayers = baseGameObject.away.players;
+
+  return homePlayers[playerName]
+    ? homePlayers[playerName].points
+    : awayPlayers[playerName].points;
 };
+
+console.log(numPointsScored('Bismak Biyombo'));
 
 //returns the shoe size of the player
 //whose name has been provided
